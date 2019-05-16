@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <EditTextPreference
+    android:defaultValue="3"
+    android:icon="@drawable/timer"
+    android:inputType="numberSigned|number|numberDecimal"
+    android:key="pickDelay"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:summary="Time in seconds until random player selected"
+    android:title="Delay" />
+</PreferenceScreen>
